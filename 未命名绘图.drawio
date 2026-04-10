@@ -36,6 +36,11 @@
         <mxCell id="RXxq7cYcOfXHyOcWGoSm-13" edge="1" parent="1" source="RXxq7cYcOfXHyOcWGoSm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" target="RXxq7cYcOfXHyOcWGoSm-10" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="RXxq7cYcOfXHyOcWGoSm-14" connectable="0" parent="RXxq7cYcOfXHyOcWGoSm-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;因果发现结果&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0292" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RXxq7cYcOfXHyOcWGoSm-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;因果识别层&lt;/font&gt;&lt;div&gt;1.设置最大滞后阶数3，构造候选父节点集合&lt;/div&gt;&lt;div&gt;2.使用PCMCI初筛，压缩边集合剔除若相关连接&lt;/div&gt;&lt;div&gt;3.使用GPDC进行条件依赖检验，保留统计显著滞后因果边&lt;/div&gt;&lt;div&gt;4.输出变量具有方向性、时滞性的因果关系结构&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="320" x="470" y="630" as="geometry" />
         </mxCell>
